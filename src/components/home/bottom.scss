@@ -1,0 +1,40 @@
+.btm-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .bt-div{
+
+     margin-left:0px;       
+    .card-mid-container{
+        
+        width: 360px;
+        height:120px;
+        display: flex;
+        align-items : flex-start;
+        justify-content : center;
+        flex-direction : column;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+        .text-name{
+                margin-left:70px;
+        }
+       
+        .img-user-bt{
+            height:45px;
+            width: 45px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .font-size-dollar{
+            margin-top:20px;
+            font-size:15px;
+        }
+        .font-size-revenue{
+            font-size: 10px;
+        }
+    }
+      
+    }
+    
+}

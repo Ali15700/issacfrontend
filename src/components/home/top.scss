@@ -1,0 +1,46 @@
+.top-div{
+    margin-top:20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap ; 
+    .left{
+        .btn {
+            width: 130px;
+            font-weight: bold;
+            height:35px;
+            background-color: #FFFFFF;
+            border: none;
+            border-radius: 0px !important;
+            color: #707070;
+            padding: 5px 10px;
+            font-size: 13px;
+            cursor: pointer;
+          }
+          
+          /* Darker background on mouse-over */
+          .btn:hover {
+            background-color: #70707056;
+          }
+    }
+
+    .right{
+        .btn {
+            width:150px;
+            height:40px;
+            background-color: #E11E25;
+            border-radius: 50px;
+            color: #ffffff;
+            padding: 5px 10px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+          }
+          
+          /* Darker background on mouse-over */
+          .btn:hover {
+            background-color: #D4242A;
+          }
+    }
+}
