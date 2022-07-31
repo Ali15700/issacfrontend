@@ -1,5 +1,5 @@
 import React from 'react'
-import './home.scss'
+import '../home.scss'
 import './bottom.scss'
 
 

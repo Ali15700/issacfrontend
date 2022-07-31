@@ -1,8 +1,8 @@
 import React from 'react'
 import './home.scss'
-import Top from './Top';
-import Mid from './Mid';
-import Bottom from './Bottom';
+import Top from './top/Top';
+import Mid from './mid/Mid';
+import Bottom from './bottom/Bottom';
 import Table from './Table';
 function Home() {
   return (

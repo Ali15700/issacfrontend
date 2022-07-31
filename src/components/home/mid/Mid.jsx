@@ -1,6 +1,8 @@
-import React from 'react'
-import './home.scss'
-import './mid.scss'
+import React from 'react';
+import '../home.scss';
+import './mid.scss';
+
+import {Chart} from './Chart';
 
 export default function Mid() {
   return (
@@ -68,7 +70,7 @@ export default function Mid() {
 
               </div>
               <div className="col-lg-6 right-mid-div">
-              <button className="tqm"></button>
+                  <Chart/>
               </div>
             </div>
           </div>

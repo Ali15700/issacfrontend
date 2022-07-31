@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowerRouter as Router,Route,Switch} from "react-router-dom";
+import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Topbar from './components/topbar/Topbar';
 import Menu from './components/menu/Menu';
 import Home from './components/home/Home';
@@ -10,13 +10,12 @@ function App() {
     <div className="app">
       <Topbar/>
       <Menu/>
-    <Router> 
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/quality" component={Quality}/>
-      </Switch>
-    </Router>
-      <Quality/>
+      <BrowserRouter>
+    <Routes>       
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/quality" element={<Quality/>}/>
+    </Routes>
+    </BrowserRouter>
       </div>
   
   );
